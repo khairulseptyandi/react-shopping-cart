@@ -28,7 +28,7 @@ textarea {
   height: 100%;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -63,21 +63,21 @@ footer {
   margin-top: 1.5rem;
 }
 
-.content{
+.content {
   display: flex;
   flex-wrap: wrap;
 }
 
-.main{
+.main {
   flex: 3 60rem;
 }
 
-.sidebar{
+.sidebar {
   flex: 1 20rem;
 }
 
 /* Products */
-.products{
+.products {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -87,7 +87,7 @@ footer {
   list-style-type: none;
 }
 
-.products li{
+.products li {
   flex: 0 1 29rem;
   height: 42rem;
   padding: 1rem;
@@ -95,46 +95,46 @@ footer {
   margin-bottom: 3rem;
 }
 
-.product{
+.product {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
 }
 
-.product img{
+.product img {
   max-width: 37rem;
   max-height: 37rem;
 }
 
-.product-price{
+.product-price {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .product-price div,
-.product-price button{
+.product-price button {
   text-align: center;
   flex: 1;
 }
 
-.product-price div{
+.product-price div {
   font-size: 2rem;
 }
 
-.button{
+.button {
   padding: 1rem;
   border: .1rem #c0c0c0 solid;
   background-color: #f0f0f0;
   cursor: pointer;
 }
 
-.button.primary{
+.button.primary {
   background-color: #f0c040;
 }
 
-.button:hover{
+.button:hover {
   border: 0.1rem #80c0c0 solid;
 }
 
@@ -147,6 +147,62 @@ footer {
   border-bottom: 0.1rem #c0c0c0 solid;
 }
 
-.filter div{
+.filter div {
+  flex: 1;
+}
+
+.cart {
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+}
+
+.cart-header {
+  border-bottom: 1rem #c0c0c0 solid;
+}
+
+.cart-items {
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+}
+
+.cart-items img {
+  width: 5rem;
+}
+
+.cart-items li {
+  display: flex;
+}
+
+.cart-items li div {
+  padding: 0.5rem;
+}
+
+.cart-items li div:last-child {
+  flex: 1;
+}
+
+.right {
+  text-align: right;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.total>div{
+  font-size: 2rem;
+}
+
+.total>button{
+  width: 20%;
+}
+
+.total>div,
+.total>button{
   flex: 1;
 }
