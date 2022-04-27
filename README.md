@@ -3,7 +3,7 @@
 # Step 1 : Create React
 
 
-# Step 8 : Checkput Form
+# Step 8 : Checkout Form
   1. Set Active Task Management Spreadsheet
   2. Create branch checkout-form
   3. Cart.js
@@ -21,3 +21,21 @@
   15. Publish Changes
   16. Pull request, merge, change to master
   
+# Step 9 : Add Modal and Animation
+   1. Create Branch animation-modal
+   2. Show Animation
+   3. Install react-reveal
+   4. Create fade effect from bottom for product
+   5. Create fade left for add to cart
+   6. Create fade right for show checkout form
+   7. Open Modal by click on product image
+   8. Install react-modal
+   9. Product.js
+   10. Import Modal
+   11. Set state for product to null
+   12. Define openModal and closeModal
+   13. Show Modal if product exist
+   14. Create Modal
+   15. Create zoom effect for Modal
+   16. index.css
+   17. Style Product Details
